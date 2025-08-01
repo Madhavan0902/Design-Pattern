@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|d:\\tools\\webapi\\microservices\\shortcodegeneratorservice\\shortcodegeneratorservice\\controllers\\shortcodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|solutionrelative:shortcodegeneratorservice\\controllers\\shortcodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|d:\\tools\\webapi\\microservices\\shortcodegeneratorservice\\shortcodegeneratorservice\\models\\shortcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|solutionrelative:shortcodegeneratorservice\\models\\shortcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|d:\\tools\\webapi\\microservices\\shortcodegeneratorservice\\shortcodegeneratorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|solutionrelative:shortcodegeneratorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|d:\\tools\\webapi\\microservices\\shortcodegeneratorservice\\shortcodegeneratorservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|solutionrelative:shortcodegeneratorservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|d:\\tools\\webapi\\microservices\\shortcodegeneratorservice\\shortcodegeneratorservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6295481F-8D0B-499F-AC0C-A55B70C2F85C}|ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj|solutionrelative:shortcodegeneratorservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShortCodesController.cs",
+              "DocumentMoniker": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Controllers\\ShortCodesController.cs",
+              "RelativeDocumentMoniker": "ShortCodeGeneratorService\\Controllers\\ShortCodesController.cs",
+              "ToolTip": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Controllers\\ShortCodesController.cs",
+              "RelativeToolTip": "ShortCodeGeneratorService\\Controllers\\ShortCodesController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:20:45.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShortCode.cs",
+              "DocumentMoniker": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Models\\ShortCode.cs",
+              "RelativeDocumentMoniker": "ShortCodeGeneratorService\\Models\\ShortCode.cs",
+              "ToolTip": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Models\\ShortCode.cs",
+              "RelativeToolTip": "ShortCodeGeneratorService\\Models\\ShortCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:18:41.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "ShortCodeGeneratorService\\Data\\AppDBContext.cs",
+              "ToolTip": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "ShortCodeGeneratorService\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:09:04.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Program.cs",
+              "RelativeDocumentMoniker": "ShortCodeGeneratorService\\Program.cs",
+              "ToolTip": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\Program.cs",
+              "RelativeToolTip": "ShortCodeGeneratorService\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:00:12.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\appsettings.json",
+              "RelativeDocumentMoniker": "ShortCodeGeneratorService\\appsettings.json",
+              "ToolTip": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\appsettings.json",
+              "RelativeToolTip": "ShortCodeGeneratorService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T04:59:47.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

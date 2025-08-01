@@ -1,0 +1,6 @@
+@ShortCodeGeneratorService_HostAddress = http://localhost:5031
+
+GET {{ShortCodeGeneratorService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

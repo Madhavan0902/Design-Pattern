@@ -1,0 +1,1 @@
+ˆRrD:\Tools\WebAPI\Microservices\ShortCodeGeneratorService\ShortCodeGeneratorService\ShortCodeGeneratorService.csproj¢net8.0òCSharp12
