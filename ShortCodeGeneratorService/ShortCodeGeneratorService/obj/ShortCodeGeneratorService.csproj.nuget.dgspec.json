@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj": {}
+    "D:\\Repooo\\Design-Pattern\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj": {}
   },
   "projects": {
-    "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj": {
+    "D:\\Repooo\\Design-Pattern\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj",
+        "projectUniqueName": "D:\\Repooo\\Design-Pattern\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj",
         "projectName": "ShortCodeGeneratorService",
-        "projectPath": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj",
+        "projectPath": "D:\\Repooo\\Design-Pattern\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\ShortCodeGeneratorService.csproj",
         "packagesPath": "C:\\Users\\madhavan.ramalingam\\.nuget\\packages\\",
-        "outputPath": "D:\\Tools\\WebAPI\\Microservices\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\obj\\",
+        "outputPath": "D:\\Repooo\\Design-Pattern\\ShortCodeGeneratorService\\ShortCodeGeneratorService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

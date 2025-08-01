@@ -10,7 +10,7 @@
   <HasBeginStepCommandLineTruststorePassword>false</HasBeginStepCommandLineTruststorePassword>
   <SonarQubeHostUrl>http://localhost:9000</SonarQubeHostUrl>
   <SonarQubeVersion>25.1.0.102122</SonarQubeVersion>
-  <SonarProjectKey>UrlShortner</SonarProjectKey>
+  <SonarProjectKey>ShortCodeGenerato</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />

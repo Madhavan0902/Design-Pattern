@@ -14,108 +14,6 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "Non-nullable property 'ShortCodeURL' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 23,
-                  "endLine": 7,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'ShortCodeCreatedAt' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 23,
-                  "endLine": 8,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable property 'ShortCodeDescription' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
           "message": "Non-nullable property 'ShortCodes' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
           "suppressionStates": [
             "suppressedInSource"
@@ -142,27 +40,6 @@
                   "startColumn": 33,
                   "endLine": 10,
                   "endColumn": 43
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2068",
-          "level": "warning",
-          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/appsettings.json",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 27,
-                  "endLine": 9,
-                  "endColumn": 117
                 }
               }
             }
@@ -339,27 +216,6 @@
           }
         },
         {
-          "ruleId": "S6964",
-          "level": "warning",
-          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Models/ShortCode.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 20,
-                  "endLine": 6,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S6966",
           "level": "warning",
           "message": "Await RunAsync instead.",
@@ -368,9 +224,9 @@
               "resultFile": {
                 "uri": "file:///D:/Tools/WebAPI/Microservices/ShortCodeGeneratorService/ShortCodeGeneratorService/Program.cs",
                 "region": {
-                  "startLine": 48,
+                  "startLine": 46,
                   "startColumn": 1,
-                  "endLine": 48,
+                  "endLine": 46,
                   "endColumn": 10
                 }
               }
@@ -412,22 +268,6 @@
             ]
           }
         },
-        "S2068": {
-          "id": "S2068",
-          "shortDescription": "Hard-coded credentials are security-sensitive",
-          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
-          "properties": {
-            "category": "Blocker Security Hotspot",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S5122": {
           "id": "S5122",
           "shortDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive",
@@ -436,22 +276,6 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5122",
           "properties": {
             "category": "Minor Security Hotspot",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S6964": {
-          "id": "S6964",
-          "shortDescription": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
-          "fullDescription": "\"Under-posting\" refers to a situation where a client sends less data than expected to the server during an HTTP request, for example when the client omits some properties from the request body that the server expects to receive.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6964",
-          "properties": {
-            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

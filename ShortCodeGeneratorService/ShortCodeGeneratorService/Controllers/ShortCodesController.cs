@@ -17,12 +17,21 @@ namespace ShortCodeGeneratorService.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Get all the details
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ShortCode>>> GetShortCodes()
         {
             return await _context.ShortCodes.ToListAsync();
         }
 
+        /// <summary>
+        /// Get by ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<ShortCode>> GetShortCode(int id)
         {
@@ -36,7 +45,12 @@ namespace ShortCodeGeneratorService.Controllers
             return shortCode;
         }
 
-
+        /// <summary>
+        /// Edit by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="shortCode"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutShortCode(int id, ShortCode shortCode)
         {
@@ -66,7 +80,11 @@ namespace ShortCodeGeneratorService.Controllers
             return NoContent();
         }
 
-
+        /// <summary>
+        /// Add a data 
+        /// </summary>
+        /// <param name="shortCode"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<ShortCode>> PostShortCode(ShortCode shortCode)
         {
@@ -76,7 +94,11 @@ namespace ShortCodeGeneratorService.Controllers
             return CreatedAtAction("GetShortCode", new { id = shortCode.ShortCodeID }, shortCode);
         }
 
-       
+        /// <summary>
+        /// Delete by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteShortCode(int id)
         {

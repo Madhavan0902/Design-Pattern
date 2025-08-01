@@ -5,14 +5,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
+builder.Configuration.AddUserSecrets<Program>();
 
-//Configure EF Core with MySQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDBContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
 
-// Swagger & API docs
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -28,7 +28,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-//Configure Middleware
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -38,11 +38,9 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-//HTTPS & Routing
 app.UseHttpsRedirection();
 app.UseCors("AllowReactApp");
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();

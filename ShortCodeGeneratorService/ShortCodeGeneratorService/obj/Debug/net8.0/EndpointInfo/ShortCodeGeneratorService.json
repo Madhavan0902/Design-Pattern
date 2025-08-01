@@ -194,6 +194,11 @@
   "components": {
     "schemas": {
       "ShortCode": {
+        "required": [
+          "shortCodeCreatedAt",
+          "shortCodeDescription",
+          "shortCodeURL"
+        ],
         "type": "object",
         "properties": {
           "shortCodeID": {
@@ -201,16 +206,16 @@
             "format": "int32"
           },
           "shortCodeURL": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "shortCodeCreatedAt": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "shortCodeDescription": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

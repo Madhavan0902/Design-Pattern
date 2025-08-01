@@ -237,4 +237,3 @@ D:\Tools\WebAPI\Microservices\ShortCodeGeneratorService\ShortCodeGeneratorServic
 D:\Tools\WebAPI\Microservices\ShortCodeGeneratorService\ShortCodeGeneratorService\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\Tools\WebAPI\Microservices\ShortCodeGeneratorService\ShortCodeGeneratorService\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\Tools\WebAPI\Microservices\ShortCodeGeneratorService\ShortCodeGeneratorService\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-D:\Tools\WebAPI\Microservices\ShortCodeGeneratorService\ShortCodeGeneratorService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
